@@ -1,0 +1,297 @@
+.hero {
+   
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: start;
+    color: rgb(248, 248, 248);
+    }
+    
+    .hero-content {
+    max-width: 600px;
+    }
+    
+    .hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    }
+    
+    
+    
+    .hero button {
+    background-color: rgb(243, 245, 247);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 20px;
+    }
+    
+    .hero button:hover {
+    background-color: #0056b3;
+    }
+    .Ellipse-positioning{
+        position: relative;
+    }
+    .image-ellipse{
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 770px;
+        bottom: 8px;
+    }
+    .features {
+        display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+        padding: 50px 0;
+        background-color: #f8f9fa;
+        }
+        
+        .feature-card {
+        background-color: #ffffff;
+        border: 1px solid #dddddd;
+        border-radius: 8px;
+        padding: 20px;
+        width: 22%;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        transition: transform 0.3s;
+        }
+        
+        .feature-card:hover {
+        background-color: rgb(47, 47, 161);
+        }
+        
+        .feature-card h3 {
+        font-size: 1.5rem;
+        color: black
+        margin-bottom: 25px;
+        
+        }
+        .feature-card img{
+            width: 40px;
+            padding-bottom: 10px;
+        }
+        .background-drone{
+            position: relative;
+           
+        }
+        .drone{
+            position: absolute;
+            top: -38px;
+            
+            left: 1050px;
+        }
+        .background-text{
+            color: white;
+            position: absolute;
+            top: 10px;
+            padding-left: 120px;
+        }
+        .product-heading{
+            margin-top: 80px;
+        }
+        .smart-text{
+          
+        }
+        .smart-text h1{
+            font-weight: bold;
+            margin-top: 50px;
+            margin-bottom: 40px;
+           
+            
+        }
+        .smart-text p{
+            line-height: 25px;
+           
+        }
+       .smart-text button{
+        color: white;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        background-color: blue;
+        border: 0px;
+        border-radius: 20px;
+        transition-duration: 0.3ms;
+       
+        
+       }
+       .smart-text button:hover{
+        transform: translatey(-10px);
+        background-color: cadetblue;
+       }
+       .Ellipse-image{
+        width: 300px;
+        padding-top: 110px;
+       }
+       .pysis-device{
+        width: 180px;
+       }
+       .pysis-phone{
+            width: 80px;
+       }
+       .ELLIPSE-1{
+        position: relative;
+       }
+       .PYSIS-DEVICE-1{
+        position: absolute;
+        top: 120px;
+        
+       }
+       
+       .PYSIS-PHONE-1{
+        position: absolute;
+        top: 150px;
+        right: 200px;
+       }
+       .fish-ponds{
+        position: absolute;
+        top: 320px;
+        right: 290px;
+       }
+       .data-points{
+        position: absolute;
+        top: 320px;
+        right: 160px;
+       }
+       .data-points h3{
+        padding-right: 4px;
+        text-align: center;
+       }
+       .fishdey{
+        background-color: rgb(179, 179, 216);
+        margin-top: 100px;
+       }
+       .fishdey h3{
+
+       }
+       .fishdey p{
+        line-height: 30px;
+        width: 600px;
+       }
+       .fishdey-text{
+        
+       }
+       .direction{
+        text-align: center;
+        margin-top: 20px;
+       }
+       .Fish-button{
+        color: white;
+        background-color: rgb(8, 8, 65);
+        border: none;
+        border-radius: 16px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-top: 20px;
+       }
+       .About-us{
+        margin-top: 200px;
+       }
+       .mission{
+        background-color: blue;
+        margin-right: 8px;
+        color: white;
+        
+        padding-left: 16px;
+        padding-top: 10px;
+        padding-bottom: 27px;
+        line-height: 40px;
+       }
+       .vision{
+        background-color: rgb(94, 94, 209);
+        margin-left: 8px;
+        color: white;
+        padding-left: 16px;
+        padding-top: 10px;
+        padding-bottom: 27px;
+        line-height: 40px;
+       }
+       .pysis-goal{
+        margin-top: 80px;
+        margin-bottom: 60px;
+       }
+       .goal-image{
+        margin-left: 160px;
+       }
+       .goal-images{
+        background-color: rgb(218, 210, 210);
+       }
+       .team{
+        margin-top: 200px;
+        margin-bottom: 60px;
+        
+       }
+       .ogundeji{
+        height: 140px;
+        background-color: rgb(110, 114, 161);
+        border-radius: 10px;
+        position: relative;
+
+       }
+       .ogedengbe{
+        height: 140px;
+        background-color: rgb(52, 60, 139);
+        border-radius: 10px;
+        position: relative;
+        
+       }
+       .ajari{
+        height: 140px;
+        background-color: rgb(110, 114, 161);
+        border-radius: 10px;
+        position: relative;
+        
+       }
+       .ogundeji-image{
+        width: 190px;
+       }
+       .ogedengbe-image{
+        width: 190px;
+    
+       }
+       .ajari-image{
+        width: 190px;
+       }
+       .ogedengbe-position{
+        position: absolute;
+        bottom: 1px;
+        right: -1px;
+       }
+       .ogundeji-position{
+        position: absolute;
+        bottom: 1px;
+        right: -1px;
+       }
+       .ajari-position{
+        position: absolute;
+        bottom: 1px;
+        right: -1px;
+        
+       }
+       .first-group{
+        margin-bottom: 80px;
+       }
+       .support-header{
+        margin-left: 100px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+       }
+       .support{
+        background-color: rgb(8, 8, 48);
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+       }
+       .feature-card-partner:hover{
+        background-color: white;
+       }
